@@ -232,7 +232,7 @@ class sbb_predict:
             unique_classes = np.unique(prediction[:, :, 0])
             rgb_colors = {
                 "0": [255, 255, 255],  # this is BGR, not RGB
-                "1": [0, 255, 0],  # artificial boundary
+                "1": [0, 204, 0],  # artificial boundary
                 "2": [60, 76, 231],  # text
                 "3": [219, 152, 52],  # image
                 "4": [34, 126, 230],  # heading
