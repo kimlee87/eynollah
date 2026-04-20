@@ -235,7 +235,7 @@ class sbb_predict:
                     255,
                     255,
                     255,
-                ],  # this is BGR if run inference directly, but RGB with ocrd processor
+                ],  # this is BGR
                 "1": [0, 204, 0],  # artificial boundary
                 "2": [60, 76, 231],  # text
                 "3": [219, 152, 52],  # image
